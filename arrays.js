@@ -23,8 +23,9 @@ console.log(myGrades[0]);
 console.log(myGrades[4]);
 
 // iterating or traversing each item in an array
+console.log("***** Each item in myGrades *****")
 for (let i = 0; i < myGrades.length; i++){
-    console.log("myGrades[" + i + "]: " + myGrades[i]);
+    console.log(myGrades[i]);
 }
 
 // array traversal function
